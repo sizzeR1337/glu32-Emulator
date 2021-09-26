@@ -3,7 +3,7 @@ Place glu32.dll in the same folder as the game.
 ***For Debugging Purposes Only!***  
 
 # Example
-```С++
+```C
 #include "glu32.h"
 
 void DoSomething() {
