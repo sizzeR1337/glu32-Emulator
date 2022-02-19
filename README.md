@@ -7,10 +7,7 @@ Place glu32.dll in the same folder as the game.
 #include "glu32.h"
 
 void DoSomething() {
-    MessageBox(0, L"Hello from glu32.dll!", L"Emulating glu32.dll", MB_OK);
-
-    /* Loading the real glu32.dll. Required for compatibility with all games. */
-    LoadLibraryA((LPCSTR)"C:\\Windows\\System32\\glu32.dll");
+    MessageBox(0, L"Hello from glu32.dll!", L"Emulator glu32.dll", MB_OK);
 }
 
 BOOL APIENTRY DllMain( HMODULE hModule,
